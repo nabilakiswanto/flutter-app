@@ -1,0 +1,15 @@
+platform :ios, '18.0'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build
+# If you want to disable CocoaPods analytics, uncomment the next line:
+# ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+# Find the Flutter installation path.
+flutter_root = File.expand_path('..', '..', 'flutter')
+
+# Load the Flutter Pod helper file.
+require File.join(flutter_root, 'packages', 'flutter_tools', 'bin', 'podhelper')
+
+target 'Runner' do
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+end
