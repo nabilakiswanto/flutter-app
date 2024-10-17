@@ -70,6 +70,11 @@ flutter:
     - assets/icons/pie.svg
     - assets/icons/orange-snacks.svg
     - assets/icons/plate.svg
+    - assets/icons/honey-pancakes.svg
+    - assets/icons/canai-bread.svg
+    - assets/icons/blueberry-pancake.svg
+    - assets/icons/salmon-nigiri.svg
+    - assets/icons/button.svg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
